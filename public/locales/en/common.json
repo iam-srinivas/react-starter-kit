@@ -1,0 +1,7 @@
+{
+  "welcome": "Welcome to the React Starter Kit!",
+  "app": {
+    "title": "App Title",
+    "greeting": "Hello, user!"
+  }
+}

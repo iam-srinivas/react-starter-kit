@@ -1,0 +1,12 @@
+{
+  "welcome": "Welcome to the application",
+  "login": "Login",
+  "logout": "Logout",
+  "signup": "Sign Up",
+  "profile": "Profile",
+  "settings": "Settings",
+  "home": "Home",
+  "search": "Search",
+  "submit": "Submit",
+  "cancel": "Cancel"
+}

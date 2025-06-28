@@ -1,0 +1,12 @@
+{
+  "welcome": "Bienvenue dans l'application",
+  "login": "Connexion",
+  "logout": "Déconnexion",
+  "signup": "S'inscrire",
+  "profile": "Profil",
+  "settings": "Paramètres",
+  "home": "Accueil",
+  "search": "Rechercher",
+  "submit": "Soumettre",
+  "cancel": "Annuler"
+}
