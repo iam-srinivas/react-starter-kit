@@ -17,7 +17,7 @@ i18n
   // for all options read: https://www.i18next.com/overview/configuration-options
   .init({
     fallbackLng: 'en',
-    debug: true,
+    debug: import.meta.env.DEV,
     defaultNS: 'common',
     ns: ['translation', 'common'],
     interpolation: {

@@ -3,7 +3,7 @@ import Stack from '@mui/material/Stack';
 
 const FullScreenLoader = () => {
   return (
-    <Stack alignItems="center" justifyContent="center">
+    <Stack height="100vh" alignItems="center" justifyContent="center">
       <CircularProgress />
     </Stack>
   );
