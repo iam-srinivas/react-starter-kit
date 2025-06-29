@@ -9,5 +9,10 @@ export default defineConfig({
   test: {
     globals: true,
     environment: 'jsdom',
+    setupFiles: './src/testing/setup-tests.ts',
+    exclude: ['**/node_modules/**', '**/dist/**'],
+    coverage: {
+      include: ['src/**'],
+    },
   },
 });

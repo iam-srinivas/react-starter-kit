@@ -1,14 +1,16 @@
+import Typography from '@mui/material/Typography';
 import { useTranslation } from 'react-i18next';
 
 const HomePage = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <div>
-      {JSON.stringify(i18n.languages)}
-      <h1>{t('welcome')}</h1>
-      <p>{t('app.title')}</p>
-      <p>{t('app.greeting')}</p>
+      <Typography component="h1" variant="h4">
+        {t('welcome')}
+      </Typography>
+      <Typography variant="subtitle1">{t('app.title')}</Typography>
+      <Typography variant="subtitle1">{t('app.greeting')}</Typography>
     </div>
   );
 };
